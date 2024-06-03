@@ -1,0 +1,33 @@
+.container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.navbar-brand {
+  display: block;
+  padding-left: 200px;
+  cursor: pointer;
+}
+
+.card {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card > img {
+  transition: all 0.3s;
+}
+
+.card > img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 730px) {
+  .navbar-brand {
+    padding-left: 100px;
+  }
+  .search-form {
+    visibility: hidden;
+  }
+}
